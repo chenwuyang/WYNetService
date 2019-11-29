@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EC9F90B1F3C086A81227729C /* Pods_WYNetService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97CC34E93AF9D4FD3770958 /* Pods_WYNetService.framework */; };
 		F66D74672390F84F002553BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F66D74662390F84F002553BA /* AppDelegate.m */; };
-		F66D746A2390F84F002553BA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F66D74692390F84F002553BA /* SceneDelegate.m */; };
 		F66D746D2390F84F002553BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66D746C2390F84F002553BA /* ViewController.m */; };
 		F66D74702390F84F002553BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66D746E2390F84F002553BA /* Main.storyboard */; };
 		F66D74722390F850002553BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66D74712390F850002553BA /* Assets.xcassets */; };
@@ -26,8 +25,6 @@
 		F66D74622390F84F002553BA /* WYNetService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYNetService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66D74652390F84F002553BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F66D74662390F84F002553BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F66D74682390F84F002553BA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		F66D74692390F84F002553BA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		F66D746B2390F84F002553BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F66D746C2390F84F002553BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F66D746F2390F84F002553BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,8 +91,6 @@
 				F66D747E2390F8D2002553BA /* NetService */,
 				F66D74652390F84F002553BA /* AppDelegate.h */,
 				F66D74662390F84F002553BA /* AppDelegate.m */,
-				F66D74682390F84F002553BA /* SceneDelegate.h */,
-				F66D74692390F84F002553BA /* SceneDelegate.m */,
 				F66D746B2390F84F002553BA /* ViewController.h */,
 				F66D746C2390F84F002553BA /* ViewController.m */,
 				F66D746E2390F84F002553BA /* Main.storyboard */,
@@ -237,7 +232,6 @@
 				F66D74832390F8D2002553BA /* NSError+KXError.m in Sources */,
 				F66D74672390F84F002553BA /* AppDelegate.m in Sources */,
 				F66D74782390F850002553BA /* main.m in Sources */,
-				F66D746A2390F84F002553BA /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
