@@ -3,7 +3,7 @@
 
 target 'WYNetService' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+  #use_frameworks!
 
   # Pods for WYNetService
   pod 'AFNetworking','~> 3.2.1'
