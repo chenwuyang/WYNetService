@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "WYNetService/NetService/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "Pods/AFNetworking/AFNetworking/AFNetworking.h","Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h"
+  spec.public_header_files = "Pods/AFNetworking/**/*.h","Pods/SVProgressHUD/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
