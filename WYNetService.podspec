@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "WYNetService"
   spec.version      = "1.0.3"
-  spec.summary      = "A short description of WYNetService."
+  spec.summary      = "这是简介"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "" => "wuyang.chen@wedaoyi.com" }
+  spec.author             = { "chenwuyang" => "wuyang.chen@wedaoyi.com" }
   # Or just: spec.author    = ""
   # spec.authors            = { "" => "wuyang.chen@wedaoyi.com" }
   # spec.social_media_url   = "https://twitter.com/"
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/chenwuyang/WYNetService.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/chenwuyang/WYNetService.git", :tag => "v#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
