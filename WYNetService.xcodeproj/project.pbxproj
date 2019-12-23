@@ -36,6 +36,7 @@
 		F66D74802390F8D2002553BA /* WYNetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNetService.h; sourceTree = "<group>"; };
 		F66D74812390F8D2002553BA /* NSError+KXError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+KXError.m"; sourceTree = "<group>"; };
 		F66D74822390F8D2002553BA /* WYNetService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNetService.m; sourceTree = "<group>"; };
+		F67B18A223B0BF0A00CF5496 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,7 @@
 				F66D74812390F8D2002553BA /* NSError+KXError.m */,
 				F66D74802390F8D2002553BA /* WYNetService.h */,
 				F66D74822390F8D2002553BA /* WYNetService.m */,
+				F67B18A223B0BF0A00CF5496 /* Common.h */,
 			);
 			path = NetService;
 			sourceTree = "<group>";

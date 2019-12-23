@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WYNetService"
-  spec.version      = "1.0.6"
+  spec.version      = "1.0.7"
   spec.summary      = "这是简介"
 
   # This description is used to generate tags and improve search results.
@@ -93,8 +93,6 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "WYNetService/NetService/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
-
-  spec.public_header_files = "AFNetworking/AFNetworking.h","SVProgressHUD/SVProgressHUD.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

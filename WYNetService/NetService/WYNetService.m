@@ -7,8 +7,7 @@
 //
 
 #import "WYNetService.h"
-#import <SVProgressHUD.h>
-#import <AFNetworking.h>
+#import "Common.h"
 #import "NSError+KXError.h"
 
 const NSInteger successCode        = 1;//请求成功
