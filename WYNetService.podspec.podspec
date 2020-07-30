@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint WYNetService.podspec' to ensure this is a
+#  Be sure to run `pod spec lint WYNetService.podspec.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "WYNetService"
   spec.version      = "1.0.9"
-  spec.summary      = "这是简介"
+  spec.summary      = "A short description of WYNetService.podspec."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,9 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                    二次封装AFN
                    DESC
 
-  spec.homepage     = "https://github.com/chenwuyang/WYNetService"
+  spec.homepage     = "https://github.com/chenwuyang/WYNetService.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -55,7 +54,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "chenwuyang" => "wuyang.chen@wedaoyi.com" }
   # Or just: spec.author    = ""
-  # spec.authors            = { "" => "wuyang.chen@wedaoyi.com" }
+  # spec.authors            = { "" => "" }
   # spec.social_media_url   = "https://twitter.com/"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -65,7 +64,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
+  # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -92,9 +91,12 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "WYNetService/NetService/*.{h,m}"
-  #spec.exclude_files = "Classes/Exclude"
+  spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "Pods/AFNetworking/**/*.h","Pods/SVProgressHUD/**/*.h"
+
+  spec.requires_arc = true #是否启用ARC
+
+  # spec.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -134,6 +136,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+
   spec.dependency 'AFNetworking','~> 3.2.1'
   spec.dependency 'SVProgressHUD','~> 2.2.5'
 
