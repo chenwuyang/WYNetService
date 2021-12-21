@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint WYNetService.podspec.podspec' to ensure this is a
+#  Be sure to run `pod spec lint WYNetService.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "WYNetService"
   spec.version      = "1.0.9"
-  spec.summary      = "A short description of WYNetService.podspec."
+  spec.summary      = "A short description of WYNetService."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                        这是一个AFN二次封装框架
                    DESC
 
   spec.homepage     = "https://github.com/chenwuyang/WYNetService.git"
@@ -38,8 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/chenwuyang/WYNetService.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://github.com/chenwuyang/WYNetService.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,11 +90,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "WYNetService/NetService/*.{h,m}"
+  spec.source_files  = "WYNetService/WYNetService/NetService/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
-
-
-  spec.requires_arc = true #是否启用ARC
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -122,6 +119,7 @@ Pod::Spec.new do |spec|
   # spec.framework  = "SomeFramework"
   spec.frameworks = "UIKit", "Foundation"
 
+
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
@@ -136,7 +134,6 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-
   spec.dependency 'AFNetworking','~> 3.2.1'
   spec.dependency 'SVProgressHUD','~> 2.2.5'
 
