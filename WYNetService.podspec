@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WYNetService"
-  spec.version      = "1.0.9"
+  spec.version      = "1.1.0"
   spec.summary      = "A short description of WYNetService."
 
   # This description is used to generate tags and improve search results.
