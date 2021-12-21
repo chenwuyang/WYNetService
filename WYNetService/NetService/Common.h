@@ -10,8 +10,8 @@
 #define Common_h
 
 
-#import <SVProgressHUD.h>
-#import <AFNetworking.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <AFNetworking/AFNetworking.h>
 
 
 #endif /* Common_h */
