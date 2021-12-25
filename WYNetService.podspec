@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WYNetService"
-  spec.version      = "1.2.4"
+  spec.version      = "1.2.5"
   spec.summary      = "A short description of WYNetService."
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "WYNetService","WYNetService/WYNetService/NetService.{h,m}"
+  #spec.source_files  = "WYNetService","WYNetService/NetService/*.{h,m}"
+  spec.source_files  = "WYNetService/NetService/*.{h,m}"
+
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
